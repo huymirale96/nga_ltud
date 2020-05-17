@@ -16,3 +16,5 @@ D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVect
 D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.Properties.Resources.resources
 D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.csproj.GenerateResource.Cache
 D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.Form2.resources
+C:\Users\Admin\Source\Repos\nga_ltud\GraphVector\obj\Debug\GraphVector.exe
+C:\Users\Admin\Source\Repos\nga_ltud\GraphVector\obj\Debug\GraphVector.pdb

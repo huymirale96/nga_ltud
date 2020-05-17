@@ -15,7 +15,7 @@ namespace GraphVector
         {
             InitializeComponent();
             //label1.MaximumSize = new Size(100, 0);
-            //label1.AutoSize = true;
+            //label1.AutoSize = true;////
         }
 
         private void Form2_Load(object sender, EventArgs e)
