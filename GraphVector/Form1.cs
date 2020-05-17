@@ -207,13 +207,13 @@ namespace GraphVector
             if (check == true)
             {
                 //  lbIsConnect
-                lblNoti.Text = "Đồ thị Liên Thông";
+                lblnoti_.Text = "Đồ thị Liên Thông";
                 //  MessageBox.Show("Đồ thị Liên Thông", "Thông Báo");
             }
             else if (check == false)
             {
                 // lbIsConnect
-                lblNoti.Text = "Không Liên Thông";
+                lblnoti_.Text = "Không Liên Thông";
                // MessageBox.Show("Đồ thị Không Liên Thông", "Thông Báo");
             }
                     
@@ -252,6 +252,11 @@ namespace GraphVector
         {
             Form2 fm = new Form2();
             fm.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            lblnoti_.Text = " ";
         }
     }
 }

@@ -38,6 +38,7 @@
             this.lvMatrix = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblNoti = new System.Windows.Forms.Label();
             this.btnHuongDan = new System.Windows.Forms.Button();
             this.btnColor = new System.Windows.Forms.Button();
             this.lbIsConnect = new System.Windows.Forms.Label();
@@ -54,7 +55,7 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.picGraphics = new System.Windows.Forms.PictureBox();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.lblNoti = new System.Windows.Forms.Label();
+            this.lblnoti_ = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -141,6 +142,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lblnoti_);
             this.groupBox2.Controls.Add(this.lblNoti);
             this.groupBox2.Controls.Add(this.btnHuongDan);
             this.groupBox2.Controls.Add(this.btnColor);
@@ -162,6 +164,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tools";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // lblNoti
+            // 
+            this.lblNoti.AutoSize = true;
+            this.lblNoti.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoti.ForeColor = System.Drawing.Color.Red;
+            this.lblNoti.Location = new System.Drawing.Point(163, 227);
+            this.lblNoti.Name = "lblNoti";
+            this.lblNoti.Size = new System.Drawing.Size(0, 25);
+            this.lblNoti.TabIndex = 18;
             // 
             // btnHuongDan
             // 
@@ -312,15 +324,16 @@
             this.picGraphics.TabStop = false;
             this.picGraphics.Click += new System.EventHandler(this.picGraphics_Click);
             // 
-            // lblNoti
+            // lblnoti_
             // 
-            this.lblNoti.AutoSize = true;
-            this.lblNoti.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoti.ForeColor = System.Drawing.Color.Red;
-            this.lblNoti.Location = new System.Drawing.Point(163, 227);
-            this.lblNoti.Name = "lblNoti";
-            this.lblNoti.Size = new System.Drawing.Size(0, 25);
-            this.lblNoti.TabIndex = 18;
+            this.lblnoti_.AutoSize = true;
+            this.lblnoti_.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnoti_.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lblnoti_.Location = new System.Drawing.Point(165, 227);
+            this.lblnoti_.Name = "lblnoti_";
+            this.lblnoti_.Size = new System.Drawing.Size(99, 24);
+            this.lblnoti_.TabIndex = 19;
+            this.lblnoti_.Text = "thongBao";
             // 
             // Form1
             // 
@@ -337,6 +350,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "6";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -378,6 +392,7 @@
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Button btnHuongDan;
         private System.Windows.Forms.Label lblNoti;
+        private System.Windows.Forms.Label lblnoti_;
     }
 }
 
