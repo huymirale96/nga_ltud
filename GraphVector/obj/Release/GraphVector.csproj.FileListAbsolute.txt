@@ -1,0 +1,9 @@
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\bin\Release\GraphVector.exe
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\bin\Release\GraphVector.pdb
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Release\GraphVector.csprojAssemblyReference.cache
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Release\GraphVector.Form1.resources
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Release\GraphVector.Properties.Resources.resources
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Release\GraphVector.csproj.GenerateResource.cache
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Release\GraphVector.csproj.CoreCompileInputs.cache
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Release\GraphVector.exe
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Release\GraphVector.pdb

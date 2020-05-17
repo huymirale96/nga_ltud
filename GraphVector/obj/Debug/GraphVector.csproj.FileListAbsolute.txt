@@ -1,0 +1,18 @@
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\bin\Debug\GraphVector.exe
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\bin\Debug\GraphVector.pdb
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.csprojAssemblyReference.cache
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.Form1.resources
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.Properties.Resources.resources
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.csproj.GenerateResource.cache
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.csproj.CoreCompileInputs.cache
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.exe
+E:\CĐ cô như\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.pdb
+D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.exe
+D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.pdb
+D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\bin\Debug\GraphVector.exe
+D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\bin\Debug\GraphVector.pdb
+D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.csprojResolveAssemblyReference.cache
+D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.Form1.resources
+D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.Properties.Resources.resources
+D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.csproj.GenerateResource.Cache
+D:\Nga\Đinh_Thị_Nga_15a02_CĐLTUD\GraphVector\GraphVector\obj\Debug\GraphVector.Form2.resources
