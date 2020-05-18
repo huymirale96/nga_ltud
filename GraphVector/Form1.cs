@@ -191,7 +191,7 @@ namespace GraphVector
             MST mst = new MST();//
 
             List<int> res = mst.primMST(matrixMST, Vertices);
-            this.picGraphics.Image = this.g.DrawMSTPath(res, this.lstPointVertices,Color.Yellow,Color.Red,Color.Green);
+            this.picGraphics.Image = this.g.DrawMSTPath(res, this.lstPointVertices,Color.Yellow,Color.Red,Color.Green, matrixMST);
             foreach (object o in res)
             {
                 Console.WriteLine("data_res: " + o);

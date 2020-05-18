@@ -130,6 +130,7 @@ namespace GraphVector
             Pen pClear = new Pen(Color.White, 3); // pen clear
             pLine.DashStyle = DashStyle.Dash; // dash type for pen line
             Brush cbrush = new SolidBrush(Color.Yellow); // fill ecllipse O---
+            Brush cbrush_ = new SolidBrush(Color.Green); // fill ecllipse O---
 
             Pen pCircle = new Pen(Color.Black); // pen for circle
 
@@ -139,6 +140,8 @@ namespace GraphVector
             {
                 this.DrawLine(g, pClear, lstPointVertices[ReportPath[index]], lstPointVertices[ReportPath[index + 1]]); // clear line
                 this.DrawLine(g, pLine, lstPointVertices[ReportPath[index]], lstPointVertices[ReportPath[index + 1]]);
+
+                
             }
             // end ve dinh.
 
@@ -153,6 +156,10 @@ namespace GraphVector
                 this.DrawNode(g, cbrush, pCircle, rect, ptCircle, (ReportPath[index] + 1).ToString());
 
             }
+            //using (Font myFont = new Font("Arial", 14))
+            //{
+            //    g.DrawString("Hello .NET Guide!", myFont, Brushes.Green, new PointF(2, 2));
+            //}
             // end lam noi mau vang 
             g.Dispose();
             pLine.Dispose();
@@ -170,8 +177,15 @@ namespace GraphVector
             return this.CreateGraphics(adjacent, lstPointVertices,clr);
         }
 
-        public Bitmap DrawMSTPath(List<int> ReportPath, List<Point> lstPointVertices,Color color,Color penLineColor, Color brushColor)
+        public Bitmap DrawMSTPath(List<int> ReportPath, List<Point> lstPointVertices,Color color,Color penLineColor, Color brushColor, int[,] x)
         {
+
+            foreach (object o in x)
+            {
+                Console.WriteLine("data_resxxx: " + o);
+            }
+
+            Console.WriteLine("vit ri 2 3: " + x[2,3]);
             Graphics g = Graphics.FromImage(this.bmpGraphics);
 
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
@@ -180,6 +194,7 @@ namespace GraphVector
             Pen pClear = new Pen(Color.White, 3); // pen clear
             pLine.DashStyle = DashStyle.Dash; // dash type for pen line
             Brush cbrush = new SolidBrush(color); // fill ecllipse
+            Brush cbrush_ = new SolidBrush(Color.Green); // fill ecllipse O---
 
             Pen pCircle = new Pen(Color.Black); // pen for circle
 
@@ -189,6 +204,16 @@ namespace GraphVector
                 Console.WriteLine("ReportPath[index + 1]] : " + lstPointVertices[ReportPath[index]] + "  " + ReportPath[index] +"  " + ReportPath[index+1]);
                 this.DrawLine(g, pClear, lstPointVertices[ReportPath[index]], lstPointVertices[ReportPath[index + 1]]); // clear line
                 this.DrawLine(g, pLine, lstPointVertices[ReportPath[index]], lstPointVertices[ReportPath[index + 1]]);
+
+                Point ptCircle = new Point((lstPointVertices[ReportPath[index]].X + lstPointVertices[ReportPath[index + 1]].X) / 2,
+                                    (lstPointVertices[ReportPath[index]].Y + lstPointVertices[ReportPath[index + 1]].Y) / 2);
+                Rectangle rect = new Rectangle(ptCircle, this.sizeCircle);
+
+                if (x[ReportPath[index], ReportPath[index + 1]] != 0)
+                {
+                    this.DrawNode(g, cbrush_, pCircle, rect, ptCircle, x[ReportPath[index], ReportPath[index + 1]].ToString());
+                    Console.WriteLine(ptCircle.X + "  " + ptCircle.Y + "vit ri  x xy: " + x[ReportPath[index], ReportPath[index + 1]].ToString());
+                }
             }
 
             // hightlight node nam tren duong di
