@@ -186,6 +186,7 @@ namespace GraphVector
             // hightlight duong di
             for (int index = 0; index < ReportPath.Count - 1; ++index)
             {
+                Console.WriteLine("ReportPath[index + 1]] : " + lstPointVertices[ReportPath[index]] + "  " + ReportPath[index] +"  " + ReportPath[index+1]);
                 this.DrawLine(g, pClear, lstPointVertices[ReportPath[index]], lstPointVertices[ReportPath[index + 1]]); // clear line
                 this.DrawLine(g, pLine, lstPointVertices[ReportPath[index]], lstPointVertices[ReportPath[index + 1]]);
             }

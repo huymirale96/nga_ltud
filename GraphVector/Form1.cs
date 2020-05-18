@@ -191,10 +191,22 @@ namespace GraphVector
             MST mst = new MST();
 
             List<int> res = mst.primMST(matrixMST, Vertices);
-            this.picGraphics.Image = this.g.DrawMSTPath(res, this.lstPointVertices,Color.Blue,Color.Red,Color.Green); 
-            //foreach (object o in res)
+            this.picGraphics.Image = this.g.DrawMSTPath(res, this.lstPointVertices,Color.Yellow,Color.Red,Color.Green);
+            foreach (object o in res)
+            {
+                Console.WriteLine("data_res: " + o);
+            }
+            int sum = 0;
+            for (int index = 0; index < res.Count - 1; ++index)
+            {
+                Console.WriteLine("res _ index: " + res[index]+ res[index+1]);
+                sum += matrixMST[res[index], res[index + 1]];
+            }
+            Console.WriteLine("duong min : : " + sum);
+            label4.Text = "Đường đi ngắn nhất giá trị là: " + sum;
+            //foreach (object o in this.lstPointVertices)
             //{
-            //    Console.WriteLine(o);
+            //    Console.WriteLine("data_: " + o);
             //}
             // this.picGraphics.Image = this.g.DrawPath(list, this.lstPointVertices);
         }
@@ -225,6 +237,7 @@ namespace GraphVector
             {
                 ClrGraph = colorDialog1.Color;
                 numberCheckClick = 1;
+                Console.WriteLine("color: " + ClrGraph);
             }
         }
 
@@ -257,6 +270,7 @@ namespace GraphVector
         private void Form1_Load(object sender, EventArgs e)
         {
             lblnoti_.Text = " ";
+            label4.Text = " ";
         }
     }
 }

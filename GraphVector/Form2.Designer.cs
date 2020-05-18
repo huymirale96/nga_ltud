@@ -46,7 +46,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(385, 257);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Hướng Dẫn:\r\n1.\r\n2.\r\n3.";
+            this.label2.Text = "Hướng Dẫn:\r\n1.\r\n2.\r\n3.\r\n4.";
             // 
             // Form2
             // 

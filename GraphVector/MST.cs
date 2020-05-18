@@ -92,6 +92,10 @@ namespace GraphVector
             }
                 // xuat ra list MST 
                 _reportPath = printMST(parent, V, graph);
+            foreach (object o in _reportPath)
+            {
+                Console.WriteLine("data__reportPath: " + o);
+            }
             return _reportPath;
         }
 
