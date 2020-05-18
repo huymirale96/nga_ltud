@@ -188,7 +188,7 @@ namespace GraphVector
             // List<int> list = new List<int>(new int[] { 7, 1, 1, 2, 4,3,0,4,3,5,5,6,6,7,3,8});
             // int count = 0;
             
-            MST mst = new MST();
+            MST mst = new MST();//
 
             List<int> res = mst.primMST(matrixMST, Vertices);
             this.picGraphics.Image = this.g.DrawMSTPath(res, this.lstPointVertices,Color.Yellow,Color.Red,Color.Green);
